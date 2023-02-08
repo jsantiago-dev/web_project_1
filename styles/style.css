@@ -30,9 +30,6 @@
   flex-direction: column;
 }
 
-.header__logo {
-}
-
 .header__logo_place_header {
   position: absolute;
   width: 154px;
@@ -104,7 +101,6 @@
 .description__two-columns {
   flex-direction: row;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -369,9 +365,6 @@
   font-size: 18px;
   font-weight: normal;
   color: #fff;
-}
-
-.footer__column_content_about {
 }
 
 .footer__column_content_about_column-heading {
