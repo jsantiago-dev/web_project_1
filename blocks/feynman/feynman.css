@@ -28,6 +28,7 @@
 }
 
 .feynman__link {
+  color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -36,6 +37,11 @@
   margin-top: 395px;
   right: 34px;
   z-index: 2;
+  transition: opacity 1s ease-in-out;
+}
+
+.feynman__link:hover {
+  opacity: 0.4;
 }
 
 .feynman__image {

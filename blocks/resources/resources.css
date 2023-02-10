@@ -32,6 +32,11 @@
 
 .resources__logo-link {
   cursor: pointer;
+  transition: opacity 1s ease-in-out;
+}
+
+.resources__logo-link:hover {
+  opacity: 0.4;
 }
 
 .resources__logo {

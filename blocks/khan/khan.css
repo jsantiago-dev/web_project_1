@@ -62,9 +62,15 @@
 }
 
 .khan__book-pic-buy-link {
+  color: #2f80ed;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   margin-left: 48px;
   width: 250px;
+  transition: opacity 1s ease-in-out;
+}
+
+.khan__book-pic-buy-link:hover {
+  opacity: 0.4;
 }

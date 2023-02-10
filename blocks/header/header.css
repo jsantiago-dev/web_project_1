@@ -1,12 +1,4 @@
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import url(./__rotation/header.css);
 
 .header {
   height: 100vh;
@@ -52,9 +44,15 @@
 }
 
 .header__subtitle-link {
+  color: #2f80ed;
   line-height: 25px;
   font-weight: normal;
   font-size: 18px;
+  transition: opacity 1s ease-in-out;
+}
+
+.header__subtitle-link:hover {
+  opacity: 0.4;
 }
 
 .header__main-ilustration {
